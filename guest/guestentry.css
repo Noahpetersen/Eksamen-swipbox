@@ -1,0 +1,61 @@
+body {
+    background: url(images/backgroundguest.png);
+    background-size:100% auto;
+    padding: 3em;
+    font-family: Delivery, sans-serif;
+}
+
+.input__number {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+    font-weight: bold;
+}
+
+.favor__text {
+    color: #D9242E;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 14em;
+}
+
+.confirm {
+    margin-top: 13em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.confirm__checkbox--text {
+    margin: 0;
+}
+
+.confirm__checkbox {
+    margin-top: 0.3em;
+    margin-right: 0.6em;
+}
+
+.confirm__button {
+    width: 100%;
+    background: rgb(212,5,17);
+    background: linear-gradient(90deg, rgba(212,5,17,1) 0%, rgba(255,33,46,1) 100%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 4em;
+    margin-top: 1em;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+  }
+
+
+
+

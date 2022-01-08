@@ -1,0 +1,77 @@
+img {
+    max-width: 100%;
+    
+}
+body {
+    background: url(images/background.png);
+    background-size:100% auto;
+    padding: 3em;
+    font-family: Delivery, sans-serif;
+}
+
+.loginforms__header {
+    color: #D40511;
+    margin-bottom: 0;
+}
+
+.loginforms input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+    font-weight: bold;
+}
+
+.loginforms {
+    display: flex;
+    flex-direction: column;
+    margin-top: 7em;
+    
+}
+
+.loginforms__input--phone {
+    margin-bottom: 6em;
+    margin-top: 4em;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+  }
+
+.loginoptions {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo__image {
+    margin-top: 1.5em;
+    
+}
+
+.loginoptions {
+    margin-top: 11em;
+    align-items: center;
+}
+
+.loginoptions a {
+    text-decoration: none;
+    color: #D40511;
+}
+
+.loginoptions button {
+    background: rgb(212,5,17);
+    background: linear-gradient(90deg, rgba(212,5,17,1) 0%, rgba(255,33,46,1) 100%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 4em;
+    width: 100%;
+}
+
+.loginoptions p {
+    margin: 0;
+}
+
+.loginoptions__signup {
+    margin-top: 1em;
+}
