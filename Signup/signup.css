@@ -1,0 +1,63 @@
+body {
+    background: url(images/background.png);
+    background-size:100% auto;
+    padding: 3em;
+    font-family: Delivery, sans-serif;
+    
+}
+
+img {
+    max-width: 100%;
+}
+
+.loginforms {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.loginforms__name {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 12em;
+}
+
+.loginforms__phone {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 4em;
+}
+
+.loginforms__password {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 4em;
+}
+
+.confirm__button {
+    background: rgb(212,5,17);
+    background: linear-gradient(90deg, rgba(212,5,17,1) 0%, rgba(255,33,46,1) 100%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 4em;
+    width: 100%;
+    font-weight: bold;
+    margin-top: 14em;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+  }
